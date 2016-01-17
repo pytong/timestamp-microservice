@@ -1,0 +1,26 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.1",
+  "description": "This API returns both the Unix timestamp and the natural language form of a date.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": "",
+  "keywords": [
+    "unix timestamp",
+    "natural language date",
+    "Express",
+    "Node"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Puiyee Tong",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
