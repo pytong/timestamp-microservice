@@ -5,10 +5,10 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/pytong/timestamp-microservice"
   },
-  "homepage": "",
-  "bugs": "",
+  "homepage": "https://timestamp-service.herokuapp.com",
+  "bugs": "https://github.com/pytong/timestamp-microservice/issues",
   "keywords": [
     "unix timestamp",
     "natural language date",
