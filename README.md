@@ -11,7 +11,7 @@ This API checks to see whether that string contains either a unix timestamp or a
 ## Example usage
 
 ```
-https://timestamp-service.herokuapp.com/December%2015,%202015
+https://timestamp-service.herokuapp.com/December%20,%202015
 https://timestamp-service.herokuapp.com/1450137600
 ```
 

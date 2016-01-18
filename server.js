@@ -4,6 +4,7 @@ let express = require('express'),
 	routes = require('./app/routes/index.js'),
 	app = express();
 
+app.use('/public', express.static('public'));
 app.use('/', express.static('app'));
 
 routes(app);

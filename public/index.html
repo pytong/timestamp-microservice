@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Timestamp Microservice - This API checks to see whether that string contains either a unix timestamp or a natural language date.</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<div class="container">
+            <h1>Overview</h1>
+            <p>This API checks to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</p>
+            <p>1) If it does, it returns both the Unix timestamp and the natural language form of that date.</p>
+            <p>2) If it does not contain a date or Unix timestamp, it returns null for those properties.</p>
+
+            <h1>Example usage</h1>
+            <code>https://timestamp-service.herokuapp.com/December 20,2015</code>
+            <br />
+            <code>https://timestamp-service.herokuapp.com/1450137600</code>
+
+            <h1>Example output</h1>
+            <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+		</div>
+	</body>
+
+</html>

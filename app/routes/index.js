@@ -1,6 +1,7 @@
 "use strict";
 
-let dateUtil = require("../utils/dateUtil");
+let path = process.cwd(),
+	dateUtil = require("../utils/dateUtil");
 
 
 module.exports = (app) => {
@@ -13,4 +14,7 @@ module.exports = (app) => {
 			res.json(result);
 		});
 
+	app.get("/", (req, res)  => {
+		res.sendFile(path + "/public/index.html");
+	});
 };
